@@ -23,7 +23,7 @@ services:
     container_name: orchestrator
     environment:
       # Update with CloudGen Access Proxy enrollment link
-      - FYDE_ENROLLMENT_TOKEN=<paste here your CloudGen Access Proxy enrollment link>
+      - FYDE_ENROLLMENT_TOKEN=https://enterprise.fyde.com/proxies/v2/enrollment/3661d12d-e973-4b08-b6a3-35b0fb90fef7?proxy_auth_token=hogZ4JQA3JpoJLz6tWVsQoLS&tenant_id=cd657b26-d0ca-4b6e-b212-f87191b0bf79
     image: fydeinc/fydeproxy:latest
     networks:
       - cga
